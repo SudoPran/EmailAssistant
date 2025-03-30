@@ -4,7 +4,7 @@
 [![React](https://img.shields.io/badge/React-19-blue.svg)](https://reactjs.org/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-MV3-lightgrey.svg)](https://developer.chrome.com/docs/extensions/mv3/)
 
-An intelligent email assistant that generates contextual replies using Google's Gemini AI, available as a web app and Chrome extension.
+An intelligent email assistant that generates contextual replies using Google's Gemini AI.
 
 ![Demo GIF](demo.gif) <!-- Add your demo GIF here -->
 
@@ -15,12 +15,6 @@ An intelligent email assistant that generates contextual replies using Google's 
 - Tone selection (Professional/Casual/Friendly)
 - One-click copy to clipboard
 - Clean, responsive interface
-
-### Chrome Extension
-- Seamless Gmail integration
-- "AI Reply" button in compose windows
-- Preserves Gmail's native UI
-- Real-time response generation
 
 ## 🛠️ Tech Stack
 
@@ -40,7 +34,6 @@ An intelligent email assistant that generates contextual replies using Google's 
 ### Prerequisites
 - Java 17+
 - Node.js 16+
-- Chrome browser
 - [Gemini API key](https://ai.google.dev/)
 
 ### Installation
