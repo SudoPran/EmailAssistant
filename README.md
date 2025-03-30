@@ -1,6 +1,10 @@
 # AI Email Reply Generator
 
-A Spring Boot with a React and Chrome extension that generates AI-powered email replies using Google's Gemini API.
+The AI Email Reply Generator is a comprehensive solution that combines Google's Gemini API with:
+
+-A Spring Boot backend with REST API endpoints.
+-A React frontend web application.
+-A Chrome extension that integrates directly with Gmail.
 
 ## Features
 
