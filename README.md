@@ -1,8 +1,7 @@
 # 📧 AI Email Reply Generator
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green.svg)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-19-blue.svg)](https://reactjs.org/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-MV3-lightgrey.svg)](https://developer.chrome.com/docs/extensions/mv3/)
 
 An intelligent email assistant that generates contextual replies using Google's Gemini AI, available as a web app and Chrome extension.
@@ -48,5 +47,4 @@ An intelligent email assistant that generates contextual replies using Google's 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ai-email-reply-generator.git
-   cd ai-email-reply-generator
+   git clone https://github.com/SudoPran/EmailAssistant.git
