@@ -1,54 +1,52 @@
-# AI Email Reply Generator
+# 📧 AI Email Reply Generator
 
-The AI Email Reply Generator is a comprehensive solution that combines Google's Gemini API with:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green.svg)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-MV3-lightgrey.svg)](https://developer.chrome.com/docs/extensions/mv3/)
 
--A Spring Boot backend with REST API endpoints.
--A React frontend web application.
--A Chrome extension that integrates directly with Gmail.
+An intelligent email assistant that generates contextual replies using Google's Gemini AI, available as a web app and Chrome extension.
 
-## Features
+![Demo GIF](demo.gif) <!-- Add your demo GIF here -->
 
-- **Web Application**:
-  - Paste any email content and select a tone (professional, casual, friendly)
-  - Get AI-generated replies instantly
-  - Copy replies to clipboard with one click
+## ✨ Features
 
-- **Chrome Extension**:
-  - Integrates directly with Gmail
-  - Adds "AI Reply" button to compose windows
-  - Generates context-aware replies based on email content
-  - Maintains Gmail's native UI look and feel
+### Web Application
+- AI-powered email reply generation
+- Tone selection (Professional/Casual/Friendly)
+- One-click copy to clipboard
+- Clean, responsive interface
 
-## Technologies Used
+### Chrome Extension
+- Seamless Gmail integration
+- "AI Reply" button in compose windows
+- Preserves Gmail's native UI
+- Real-time response generation
 
-- **Backend**:
-  - Spring Boot
-  - WebFlux for reactive API calls
-  - Google Gemini API integration
-  - CORS configuration for cross-origin requests
+## 🛠️ Tech Stack
 
-- **Frontend**:
-  - React.js with Vite
-  - Material UI for styling
-  - Axios for API calls
+**Backend**  
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=spring&logoColor=white)
+![WebFlux](https://img.shields.io/badge/-WebFlux-6DB33F?logo=spring&logoColor=white)
 
-- **Chrome Extension**:
-  - Manifest v3
-  - Mutation Observers for DOM monitoring
-  - Content scripts for UI injection
-  - Gmail API integration
+**Frontend**  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?logo=mui&logoColor=white)
 
-## Installation
+**AI Integration**  
+![Gemini API](https://img.shields.io/badge/-Gemini%20API-4285F4?logo=google&logoColor=white)
+
+## 🚀 Quick Start
 
 ### Prerequisites
 - Java 17+
 - Node.js 16+
-- Google Chrome
-- Google Gemini API key
+- Chrome browser
+- [Gemini API key](https://ai.google.dev/)
 
-### Backend Setup
-1. Clone the repository
-2. Configure environment variables in `application.properties`:
-   ```properties
-   gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
-   gemini.api.key=your_api_key_here
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ai-email-reply-generator.git
+   cd ai-email-reply-generator
