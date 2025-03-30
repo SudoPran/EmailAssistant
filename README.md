@@ -2,7 +2,6 @@
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-19-blue.svg)](https://reactjs.org/)
-[![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-MV3-lightgrey.svg)](https://developer.chrome.com/docs/extensions/mv3/)
 
 An intelligent email assistant that generates contextual replies using Google's Gemini AI.
 
